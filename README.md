@@ -1,2 +1,2 @@
 # ProyectoEquipoFutbol
-Proyecto integrador de programación orientada a objetos
+En este proyecto se hará la gestión de un equipo de futbol, tomando en cuenta tres factores que seran nuestras clases, jugador, entrenador y partido. Aqui se van a registrar los partidos, asignar un entrenador y se irán agregando jugadores. Este proyecto buscará gestionar el equipo de la mejor manera usando estas tres principales clases. Es probable que se creen mas con el fin de que la gestión del equipo se haga de la mejor manera.

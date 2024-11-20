@@ -34,6 +34,7 @@ public:
         return goles_favor; 
         }
 
+    // Setters
     void setRival(string _rival) { rival = _rival; }
     void setGolesContra(int _goles_contra) { goles_contra = _goles_contra; }
     void setGolesFavor(int _goles_favor) { goles_favor = _goles_favor; }

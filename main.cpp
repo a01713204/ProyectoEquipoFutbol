@@ -5,8 +5,8 @@
 using namespace std;
 int main() {
     // Mostrar cada clase
-    Jugador jugador1("Pablo Torres", 19, "Delantero");
-    Entrenador entrenador1("Pep Guardiola", 15);
+    Jugador jugador1("Pablo Torres", 19, "Delantero", 5000);
+    Entrenador entrenador1("Pep Guardiola", 15.8, 1000, 4);
     Partido partido1("Tec Qro", 3, 2);
 
     jugador1.imprime_datos();

@@ -1,0 +1,2 @@
+Puede volver a checarme:
+- el diagrama de clases

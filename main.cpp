@@ -10,10 +10,7 @@ int main() {
     equipo.agregarJugador("Leo Messi", 100000, "Delantero", 37);
     equipo.agregarJugador("Cristiano Ronaldo", 1000, "Delantero", 39);
     equipo.agregarJugador("Lamine Yamal", 60455, "Extremo derecho", 17);Entrenador entrenador("15 años", 4, "Pep Guardiola", 15000);
-    Partido partido1("Tec Qro", 3, 2);
-    Partido partido2("Real Madrid", 8, 2);
-    Partido partido3("Barcelona", 3, 8);
-    Partido partido4("Manchester City", 3, 3);
+    
 
     Entrenador entrenador("Pep Guardiola", 5000, "5 años", 30);
     equipo.agregarPartido("Tec Qro", 3, 2);

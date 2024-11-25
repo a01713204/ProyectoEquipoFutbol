@@ -1,55 +1,50 @@
 #ifndef ENTRENADOR_H
 #define ENTRENADOR_H 
+#include "Miembro.h"
 #include <iostream> 
 using namespace std;
-class Entrenador {
+class Entrenador :public Miembro {
     
 private:
-    string nombre;
-    float experiencia; //en años como entrenador
-    float salario;// en pesos
+    string experiencia; //en años como entrenador
     int titulos;
 
 public:
     // Constructor por omisión o defecto
-    Entrenador() {
-        nombre = "desconocido";
-        experiencia = 0;
-        salario = 0;
+    Entrenador(): Miembro() {
+        experiencia = "Sin experiencia";
         titulos= 0;
 
     }
 
     // Constructor de parámetros
-    Entrenador(string _nombre, float _experiencia, float _salario, int _titulos) {
-        nombre = _nombre;
+    Entrenador(string _experiencia, int _titulos, string _nombre, float _salario): Miembro (_nombre, _salario) {
+
         experiencia = _experiencia;
-        salario= _salario;
         titulos= _titulos;
     }
     // Getters
-    string getNombre()  { 
-        return nombre; 
-        }
-    float getExperiencia()  {
+    string getExperiencia()  {
         return experiencia; 
         }
-    float getSalario()  {
-        return salario; 
-        }
-    float getTitulos()  {
+    int getTitulos()  {
         return titulos; 
         }
     
 
     // Setters
-    void setNombre(string _nombre) { nombre = _nombre; }
-    void setExperiencia(float _experiencia) { experiencia = _experiencia; }
-    void setSalario(float _salario) { salario = _salario; }
-    void setTitulos(int _titulos) { titulos = _titulos; }
+    void setExperiencia(string _experiencia) { 
+        experiencia = _experiencia; 
+        }
+    void setTitulos(int _titulos) { 
+        titulos = _titulos; 
+        }
 
     void imprime_datos(){
-        cout << "Entrenador: " << nombre << ", Años de experiencia: "<< experiencia << " Salario: $"<<salario<< " Títulos: "<< titulos<< endl;
+        cout << "Entrenador: " << endl;
+        Miembro:: imprime_datos();
+        cout<<", Años de experiencia: "<< experiencia << endl;
+        cout<< " Títulos: "<< titulos<< endl;
     }
 
 };

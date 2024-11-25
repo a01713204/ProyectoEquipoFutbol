@@ -25,22 +25,29 @@ public:
         goles_favor = _goles_favor;
     }
     string getRival() { 
-        return rival;
+         return rival;
      }
     int getGolesContra() { 
         return goles_contra;
          }
     int getGolesFavor() { 
-        return goles_favor; 
+         return goles_favor; 
         }
 
     // Setters
-    void setRival(string _rival) { rival = _rival; }
-    void setGolesContra(int _goles_contra) { goles_contra = _goles_contra; }
-    void setGolesFavor(int _goles_favor) { goles_favor = _goles_favor; }
+    void setRival(string _rival) { 
+         rival = _rival; 
+        }
+    void setGolesContra(int _goles_contra) { 
+         goles_contra = _goles_contra; 
+         }
+    void setGolesFavor(int _goles_favor) { 
+         goles_favor = _goles_favor; 
+        }
 
     void imprime_datos(){
-        cout << "Partido: " << rival << "Marcador:  "<< goles_contra << "-" << goles_favor<< endl;
+        cout << "Partido contra: " << rival << endl;
+        cout<<"Marcador:  "<< goles_contra << "-" << goles_favor<< endl;
     }
 
 };

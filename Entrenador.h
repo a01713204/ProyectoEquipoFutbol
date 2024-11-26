@@ -18,7 +18,7 @@ public:
     }
 
     // Constructor de parámetros
-    Entrenador(string _experiencia, int _titulos, string _nombre, float _salario): Miembro (_nombre, _salario) {
+    Entrenador(string _nombre, float _salario, string _experiencia, int _titulos): Miembro (_nombre, _salario) {
 
         experiencia = _experiencia;
         titulos= _titulos;
@@ -40,9 +40,9 @@ public:
         titulos = _titulos; 
         }
 
-    void imprime_datos(){
+    void imprimeDatos(){
         cout << "Entrenador: " << endl;
-        Miembro:: imprime_datos();
+        Miembro:: imprimeDatos();
         cout<<", Años de experiencia: "<< experiencia << endl;
         cout<< " Títulos: "<< titulos<< endl;
     }

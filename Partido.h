@@ -45,7 +45,7 @@ public:
          goles_favor = _goles_favor; 
         }
 
-    void imprime_datos(){
+    void imprimeDatos(){
         cout << "Partido contra: " << rival << endl;
         cout<<"Marcador:  "<< goles_contra << "-" << goles_favor<< endl;
     }

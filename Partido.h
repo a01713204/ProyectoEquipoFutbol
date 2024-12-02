@@ -24,6 +24,7 @@ public:
         goles_contra = _goles_contra;
         goles_favor = _goles_favor;
     }
+    //Getters
     string getRival() { 
          return rival;
      }
@@ -44,7 +45,7 @@ public:
     void setGolesFavor(int _goles_favor) { 
          goles_favor = _goles_favor; 
         }
-
+    //Metodo para mostrar datos que se agregaran a una lista en la clase equipo
     void imprimeDatos(){
         cout << "Partido contra: " << rival << endl;
         cout<<"Marcador:  "<< goles_contra << "-" << goles_favor<< endl;

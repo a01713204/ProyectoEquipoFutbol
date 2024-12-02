@@ -1,2 +1,2 @@
-Puede volver a checarme:
-- el diagrama de clases
+Que tal profe, habría chance de volver a checar la competencia "Sigo estandares en todo mi código fuente: estilos, sangrías, comentarios, nombres, etc..."
+Agregue unos detalles para ver si eso puede ayudar.

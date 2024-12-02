@@ -1,11 +1,11 @@
-#ifndef MIEMBRO_H
+#ifndef MIEMBRO_H //Esta clase va a conformar a la clase jugador y entrenador
 #define MIEMBRO_H 
 #include <iostream> 
 using namespace std;
 class Miembro {
     
 protected:
-    string nombre;
+    string nombre;//Aqui va a ser el nombre del entrenador y de distintos jugadores
     float salario;// en pesos
 
 public:
@@ -36,7 +36,7 @@ public:
     void setSalario(float _salario) { 
         salario = _salario; 
         }
-
+    //metodo para mostrar los datos de miembro que se implementará en otras clases
     virtual void imprimeDatos() {
         cout << "Nombre: " << nombre << endl;
         cout << "Salario: $" << salario << endl;

@@ -3,7 +3,7 @@
 #define EQUIPO_H
 
 #include <iostream>
-#include <vector>
+#include <vector> //Esto nos permitirá hacer listas
 #include "Jugador.h"
 #include "Entrenador.h"
 #include "Partido.h"
